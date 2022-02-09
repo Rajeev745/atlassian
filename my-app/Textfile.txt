@@ -1,0 +1,28 @@
+=>Hooks Used = useState, useContext, createContext
+=>library used= react-icons
+=>UI_info= The project is divided into three main components i.e. Header, Content, Sidebar
+
+Header=>
+
+=>The header has an icon on the right.
+=>A select tag so that we can choose how we want to search our restaurant that is by name, by cuisine or by neighborhood.
+=>It also contain an input tag from where we can search the restaurant.
+
+Sidebar=>
+
+=>The sidebar has an select option that will allow you to see all the restaurants.
+=>The sidebar than contain options with which you can filter your restaurants just by clicking on the options
+
+Content=>
+
+=>The content contain the information about the restaurants in the form of cards.
+
+
+
+Functionality=>
+
+=>As far as the data is imported from Mockdata.json file which is then imported in Content components.
+=>From their the data is mapped through the array.map function on the cards.
+=>The filter component was created in the context folder.
+=>I have used createContext to create the filter and useContext to use the filter in different components altogther.
+=> the data is than filtered through the array.filter function in content component.
