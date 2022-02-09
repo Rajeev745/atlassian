@@ -1,0 +1,60 @@
+
+.content-body{
+    height: 85vh;
+    width: 80vw;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    height: 40vh;
+    width: 16vw;
+    border:  1px solid black;
+    margin: 60px;
+}
+.image{
+    height: 20vh;
+    width: 16vw;
+}
+.image img{
+    height: 20vh;
+    width: 16vw;
+}
+.res-name{
+    height: 5vh;
+    width: 16vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuisine{
+    width: 16vw;
+    height: 4vh;
+    /* font-size: 10px; */
+}
+.add{
+    height: 4vh;
+    width: 16vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.neighbor{
+    height: 4vh;
+    width: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rating{
+    height: 5vh;
+    width: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.address{
+    height: 7vh;
+    width: 16vw;
+    padding: 10px;
+}
