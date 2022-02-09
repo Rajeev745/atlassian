@@ -8,13 +8,25 @@ export default function Sidebar() {
   return (
     <div className="body">
       <div className="sidebar">
-        <div className="Filter-by">Select</div>
+        <div
+          className="Filter-by"
+          onClick={() =>
+            setFilter({
+              ...filter,
+              cuisine_type: "",
+              ratings: "",
+              neighborhood: "",
+            })
+          }
+        >
+          Select
+        </div>
         <div className="category-type">
           <div
             className="category"
             onClick={() => setFilter({ ...filter, cuisine_type: "Asian" })}
           >
-            Aisan
+            Asian
           </div>
           <div
             className="category"
